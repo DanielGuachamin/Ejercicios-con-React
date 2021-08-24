@@ -16,7 +16,7 @@ const UserInfo = () => {
         };
 
         getData();
-    }, []);
+    }, [changeUser]);
 
     useEffect( ()=> {
         console.log(urlJson + changeUser)
